@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_ecc_playwright__browser_navigate",
+      "Bash(curl *)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(npx playwright *)",
+      "Bash(node oreno-qa-test.js)",
+      "Bash(npm list *)",
+      "Bash(ls package.json)",
+      "Bash(npm install *)",
+      "Bash(node oreno-qa-test2.js)",
+      "Bash(code --install-extension ms-playwright.playwright-mcp)",
+      "Bash(code *)",
+      "Bash(where chromedriver *)",
+      "Bash(where geckodriver *)",
+      "Bash(where msedgedriver *)",
+      "Bash(npm --version)",
+      "Bash(node qa_audit.js)",
+      "Bash(node -e ' *)",
+      "Bash(set ECC_GATEGUARD=off)",
+      "Bash(node -e \"console.log\\(process.env.ECC_GATEGUARD\\)\")",
+      "Bash(node -p 'require\\('\\\\''fs'\\\\''\\).writeFileSync\\('\\\\''run_qa.js'\\\\'', `const { chromium } = require\\('\\\\''playwright'\\\\''\\); *)",
+      "Bash(node run_qa.js)"
+    ]
+  }
+}
